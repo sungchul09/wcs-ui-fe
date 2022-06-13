@@ -42,9 +42,6 @@ body {
 }
 
 .header {
-  top: 0px;
-  left: 0px;
-  position: fixed;
   width: 100vw;
   height: 10vh;
   background: var(--black);
@@ -53,16 +50,10 @@ body {
 .container {
   height: 100vh;
   display: flex;
-  padding-top: 10vh;
-}
-.menu {
-  background: var(--yellow);
-  width: 15vw;
-  max-width: 200px;
 }
 
 .section {
-  background: var(--light-gray);
+  background: var(--white);
   width: 100vw;
 }
 
@@ -73,6 +64,6 @@ body {
   position: fixed;
   width: 100vw;
   height: 5vh;
-  background: var(--gray);
+  background: var(--dark-gray);
 }
 </style>

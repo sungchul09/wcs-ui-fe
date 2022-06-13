@@ -26,11 +26,12 @@ header {
   font-weight: bold;
   display: flex;
   justify-content: flex-start;
-  align-items: baseline;
+  align-items: center;
 }
 
 header > * {
   margin: 0 15px;
+  display: flex;
 }
 header .icon {
   color: var(--white);
